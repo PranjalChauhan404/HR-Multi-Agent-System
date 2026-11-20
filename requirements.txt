@@ -1,5 +1,5 @@
-google-genai
-crewai[google-genai]
+crewai[openai]
+openai
 sentence-transformers
 weaviate-client
 psycopg[binary]
