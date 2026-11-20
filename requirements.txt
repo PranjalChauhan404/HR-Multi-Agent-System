@@ -1,0 +1,8 @@
+google-genai
+crewai[google-genai]
+sentence-transformers
+weaviate-client
+psycopg[binary]
+gradio
+python-dotenv
+langfuse
