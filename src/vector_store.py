@@ -14,7 +14,7 @@ def connect_weaviate():
     """Connect to the local Weaviate instance."""
     client = weaviate.connect_to_local(
         host="localhost",
-        port=8080,
+        port=18080,
         grpc_port=50051,
     )
 
