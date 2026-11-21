@@ -15,7 +15,7 @@ def connect_weaviate():
     client = weaviate.connect_to_local(
         host="localhost",
         port=18080,
-        grpc_port=50051,
+        grpc_port=50052,
     )
 
     if not client.is_ready():
